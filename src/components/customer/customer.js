@@ -37,10 +37,9 @@ class Customer extends Component
 
 									<p><ErrorMessage name="name" /></p>
 									<Field type="text" name="name"
-										placeholder="Enter your name *" /><br />
+									placeholder="Enter your name *" /><br />
 									<p><ErrorMessage name="website" /></p>
 									<Field type="text" name="website" placeholder="Enter your website" /><br />
-									<p><ErrorMessage name="email" /></p>
 									<Field component="textarea" name="comments" placeholder="Enter comments!" /><br />
 									<p><ErrorMessage name="comments" /></p>
 									<Field type="text" name="lieferzeit" placeholder="Enter lieferzeit" /><br />
